@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Irish+Grover&family=Josefin+Slab:wght@100&family=Kanit&family=Luckiest+Guy&family=Righteous&display=swap');
+
+.start{
+    background-image: url('../flames_images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+.start-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+p{
+    font-family: 'Righteous', cursive;
+    color: rgb(226, 226, 17);
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 8px rgba(150, 150, 150, 1);
+}
+.link-button{
+    text-decoration: none;
+    color: red;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+.start-button{
+    padding: 6px 28px;
+    border: none;
+    border-radius: 10px 25px 10px 25px;
+    box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.8);
+-webkit-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.8);
+-moz-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.8);
+
+box-shadow: 0px 0px 57px -34px rgba(0,0,0,0.3) inset;
+-webkit-box-shadow: 0px 0px 57px -34px rgba(0,0,0,0.3) inset;
+-moz-box-shadow: 0px 0px 57px -34px rgba(0,0,0,0.3) inset;
+}
+.start-button:focus{
+    border:none;
+    outline: none;
+}
+@media (max-width:320px){
+    p{
+        font-size: 50px;
+    }
+}
+@media (max-width:375px){
+    p{
+        font-size: 50px;
+    }
+}
+@media (max-width:425px){
+    p{
+        font-size: 50px;
+    }
+}
+@media (max-width:768px){
+    p{
+        font-size: 50px;
+    }
+}
+@media (max-width:1024px){
+    p{
+        font-size: 50px;
+    }
+}
+@media (max-width:1440px){
+    p{
+        font-size: 50px;
+    }
+}
